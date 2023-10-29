@@ -1,8 +1,6 @@
 import './App.css';
 
-import Joueurs from './joueurs';
 import PlayerList from './PlayerList';
-import Player from './Player';
 
 function App() {
   return (

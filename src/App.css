@@ -12,6 +12,53 @@ p{
 h2{
   padding-bottom: 7%;
 }
+.PlayerCss{
+  display:flex;
+  flex-direction : row;
+  width: 500px ;
+  height: 350px;
+  align-items:center;
+  border: 1px solid black;
+  border-radius :1.2rem;
+  margin : 2.5%;
+  background:linear-gradient(gray, white) ;
+}
+.infosPlayer {
+  display : flex ;
+  flex-direction : column;
+  justify-content: center;
+  gap :5%;
+  padding: 5%;
+  width: 50%;
+  height: 100%;
+}
+.imagePlayer {
+  width: 50% ;
+  height: 100% ;
+  background: cover ;
+  border-radius : inherit ;
+};
+@media screen and (max-width: 800px) {
+  .PlayerCss {
+    width : 250px;
+  }    
+}
+@media  screen and (max-width : 600px) {
+  .PlayerCss {
+    flex-direction: column;
+    width: 270px;
+    height: 600px;
+    margin: 1.5%;
+  }
+  .infosPlayer{
+    padding: 1%;
+    gap : 1% ;  
+  }
+  .imagePlayer {
+    width: 100%;
+    height: 50%;
+  }
+}
 
 
 

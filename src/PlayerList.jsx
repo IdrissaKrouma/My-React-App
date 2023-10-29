@@ -10,7 +10,7 @@ function PlayerList() {
     alignItems: 'center',
   }
   return (
-    <div style = {styleObject}>
+    <div className='PlayerListCss' style = {styleObject}>
       {Joueurs.map((elt) => {
         return (
           <Player 
